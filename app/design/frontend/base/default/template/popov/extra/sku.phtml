@@ -1,0 +1,11 @@
+<?php
+/**
+ * @var Mage_Core_Block_Template $this
+ */
+?>
+<?php $product = Mage::registry('current_product'); ?>
+<div class="product-sku-wrap">
+	<div class="product-sku-box inline">
+		<?= $this->__('Article') ?>: <span class="product-sku"><?= $product->getSku() ?></span>
+	</div>
+</div>

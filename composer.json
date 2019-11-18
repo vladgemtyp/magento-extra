@@ -1,0 +1,21 @@
+{
+    "name": "popov/magento-extra",
+    "type": "magento-module",
+    "license":"MIT Licence",
+    "description":"Adding extra information like sku and etc. without override core or theme template",
+    "authors":[{
+        "name":"Serhii Popov",
+        "email":"popovserhii@gmail.com"
+    }],
+    "extra": {
+        "map": [
+          ["app/etc/modules/Popov_Extra.xml", "app/etc/modules/Popov_Extra.xml"],
+          ["app/code/local/Popov/Extra/", "app/code/local/Popov/Extra/"],
+          ["app/design/frontend/base/default/layout/popov/extra.xml", "app/design/frontend/base/default/layout/popov/extra.xml"],
+          ["app/design/frontend/base/default/template/popov/extra/", "app/design/frontend/base/default/template/popov/extra/"],
+          ["skin/frontend/base/default/popov/css/extra.css", "skin/frontend/base/default/popov/css/extra.css"],
+          ["app/locale/uk_UA/Popov_Extra.csv", "app/locale/uk_UA/Popov_Extra.csv"],
+          ["app/locale/ru_RU/Popov_Extra.csv", "app/locale/ru_RU/Popov_Extra.csv"]
+        ]
+    }
+}
